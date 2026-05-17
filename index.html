@@ -10,7 +10,7 @@
     html { scroll-behavior: smooth; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      background: #FFF8E1;
+      background: #F0F8FF;
       color: #1C1B1F;
       line-height: 1.6;
       overflow-x: hidden;
@@ -25,7 +25,7 @@
       justify-content: center;
       text-align: center;
       padding: 40px 24px;
-      background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 40%, #388E3C 100%);
+      background: linear-gradient(135deg, #0D47A1 0%, #1565C0 40%, #1976D2 100%);
       color: #fff;
       position: relative;
       overflow: hidden;
@@ -35,7 +35,7 @@
       position: absolute;
       top: -50%; left: -50%;
       width: 200%; height: 200%;
-      background: radial-gradient(circle at 30% 50%, rgba(255,248,225,.08) 0%, transparent 50%);
+      background: radial-gradient(circle at 30% 50%, rgba(77,208,225,.08) 0%, transparent 50%);
       animation: float 20s ease-in-out infinite;
     }
     @keyframes float {
@@ -56,7 +56,7 @@
       border: 1px solid rgba(255,255,255,.2);
     }
     .hero h1 { font-size: 3.2em; font-weight: 800; letter-spacing: -.5px; margin-bottom: 8px; }
-    .hero h1 span { color: #FFB74D; }
+    .hero h1 span { color: #4DD0E1; }
     .hero p { font-size: 1.2em; opacity: .9; max-width: 500px; margin-bottom: 8px; }
     .hero-tagline { font-size: .95em; opacity: .7; margin-bottom: 32px; }
     .hero-badges { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
@@ -87,7 +87,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(255,248,225,.92);
+      background: rgba(240,248,255,.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(0,0,0,.06);
       padding: 0 24px;
@@ -114,8 +114,8 @@
       transition: all .2s;
     }
     nav ul li a:hover, nav ul li a.active {
-      color: #2E7D32;
-      border-bottom-color: #2E7D32;
+      color: #1565C0;
+      border-bottom-color: #1565C0;
     }
 
     /* ─── SECTIONS ─── */
@@ -128,7 +128,7 @@
     }
     .section-title h2 {
       font-size: 2em;
-      color: #1B5E20;
+      color: #0D47A1;
       margin-bottom: 8px;
     }
     .section-title p {
@@ -153,7 +153,7 @@
     }
     .feature-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(46,125,50,.1);
+      box-shadow: 0 12px 32px rgba(21,101,192,.1);
     }
     .feature-card .icon {
       width: 48px; height: 48px;
@@ -164,7 +164,7 @@
       font-size: 24px;
       margin-bottom: 16px;
     }
-    .feature-card h3 { font-size: 1.05em; color: #2E7D32; margin-bottom: 6px; }
+    .feature-card h3 { font-size: 1.05em; color: #1565C0; margin-bottom: 6px; }
     .feature-card p { font-size: .9em; color: #6B7280; }
 
     /* ─── BADGES ─── */
@@ -176,10 +176,10 @@
       font-size: .75em;
       font-weight: 600;
     }
-    .badge-green { background: #E8F5E9; color: #2E7D32; }
-    .badge-brown { background: #EFEBE9; color: #6D4C41; }
-    .badge-blue { background: #E3F2FD; color: #1565C0; }
-    .badge-purple { background: #F3E5F5; color: #7B1FA2; }
+    .badge-green { background: #E3F2FD; color: #1565C0; }
+    .badge-brown { background: #E0F7FA; color: #00695C; }
+    .badge-blue { background: #E1F5FE; color: #00838F; }
+    .badge-purple { background: #E8EAF6; color: #283593; }
 
     /* ─── SCREENSHOTS ─── */
     .screenshots-grid {
@@ -192,14 +192,14 @@
       border-radius: 16px;
       padding: 32px 12px;
       text-align: center;
-      border: 2px solid #E8F5E9;
+      border: 2px solid #E3F2FD;
       transition: border-color .2s;
     }
-    .screenshot-card:hover { border-color: #2E7D32; }
+    .screenshot-card:hover { border-color: #1565C0; }
     .screenshot-card .mockup {
       width: 64px; height: 64px;
       margin: 0 auto 12px;
-      background: #E8F5E9;
+      background: #E3F2FD;
       border-radius: 16px;
       display: flex;
       align-items: center;
@@ -229,7 +229,7 @@
     /* ─── DOWNLOAD ─── */
     .download-section {
       text-align: center;
-      background: linear-gradient(135deg, #2E7D32, #1B5E20);
+      background: linear-gradient(135deg, #1565C0, #0D47A1);
       color: #fff;
       border-radius: 24px;
       padding: 60px 32px;
@@ -251,9 +251,9 @@
     }
     .btn-primary {
       background: #fff;
-      color: #2E7D32;
+      color: #1565C0;
     }
-    .btn-primary:hover { background: #E8F5E9; transform: translateY(-2px); }
+    .btn-primary:hover { background: #E3F2FD; transform: translateY(-2px); }
     .btn-outline {
       background: transparent;
       color: #fff;
@@ -268,7 +268,7 @@
       color: #6B7280;
       font-size: .85em;
     }
-    footer a { color: #2E7D32; text-decoration: none; }
+    footer a { color: #1565C0; text-decoration: none; }
     footer a:hover { text-decoration: underline; }
     .footer-links { display: flex; gap: 16px; justify-content: center; margin-bottom: 12px; flex-wrap: wrap; }
     .footer-links a { color: #6B7280; }
@@ -324,7 +324,7 @@
 
       <!-- Row 1: Guest Features -->
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">🔍</div>
+        <div class="icon" style="background:#E3F2FD;">🔍</div>
         <h3>Browse & Search</h3>
         <p>Explore verified homestays with real-time search, chip filters (All, Available, Verified, Low Price), and advanced filter dialog — 300ms debounced search for instant results.</p>
       </div>
@@ -340,7 +340,7 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FFF3E0;">📅</div>
+        <div class="icon" style="background:#E0F7FA;">📅</div>
         <h3>Booking System</h3>
         <p>Select check-in/check-out dates with pickers, specify guest count, send booking requests. Host receives notifications. Booking status tracking (pending/confirmed/cancelled).</p>
         <div class="badge-row">
@@ -350,13 +350,13 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FCE4EC;">❤️</div>
+        <div class="icon" style="background:#E1F5FE;">❤️</div>
         <h3>Favorites & Wishlist</h3>
         <p>Save homestays with one tap. Heart toggle with filled/outline icons. Persistent across sessions — your wishlist is always available.</p>
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">📱</div>
+        <div class="icon" style="background:#E3F2FD;">📱</div>
         <h3>Share & Connect</h3>
         <p>Share homestay details via system share sheet. Open location directly in Google Maps. Call or WhatsApp the host instantly from the detail screen.</p>
         <div class="badge-row">
@@ -367,7 +367,7 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#F3E5F5;">🌐</div>
+        <div class="icon" style="background:#E8EAF6;">🌐</div>
         <h3>Multi-Language</h3>
         <p>Full support for English, Hindi (हिन्दी), and Kannada (ಕನ್ನಡ). App auto-detects device locale. All UI strings translated including auth, browsing, and settings.</p>
         <div class="badge-row">
@@ -379,7 +379,7 @@
 
       <!-- Row 2: Host Features -->
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">🏠</div>
+        <div class="icon" style="background:#E3F2FD;">🏠</div>
         <h3>Host Dashboard</h3>
         <p>Manage your listings with quick action cards: View Inquiries, Daily Menu, Add Places. Edit or delete your homestays with confirmation dialogs.</p>
       </div>
@@ -395,7 +395,7 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FFF3E0;">🗺️</div>
+        <div class="icon" style="background:#E0F7FA;">🗺️</div>
         <h3>Nearby Guide Places</h3>
         <p>Add trekking spots, temples, waterfalls with categories. Guests see them on the detail screen. Tap to open location in Google Maps with directions.</p>
         <div class="badge-row">
@@ -405,20 +405,20 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FCE4EC;">📩</div>
+        <div class="icon" style="background:#E1F5FE;">📩</div>
         <h3>Guest Inquiries</h3>
         <p>Real-time inquiry management. View messages from guests. Call or WhatsApp guests directly from the inquiry screen.</p>
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">📸</div>
+        <div class="icon" style="background:#E3F2FD;">📸</div>
         <h3>Image Upload</h3>
         <p>Pick from gallery or camera. Auto-compressed to &lt;500KB. Upload to Firebase Storage. Preview before submitting. Dashed border add-photo UI.</p>
       </div>
 
       <!-- Row 3: Admin & Platform -->
       <div class="feature-card">
-        <div class="icon" style="background:#F3E5F5;">🛡️</div>
+        <div class="icon" style="background:#E8EAF6;">🛡️</div>
         <h3>Admin Panel</h3>
         <p>Verify, reject, or delete listings. Filter by All/Verified/Pending. Chip-based filtering. Swipe to refresh. Delete confirmation dialog prevents accidents.</p>
       </div>
@@ -435,13 +435,13 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FFF3E0;">🌙</div>
+        <div class="icon" style="background:#E0F7FA;">🌙</div>
         <h3>Dark Mode</h3>
         <p>Full dark theme with brand colors. Toggle in Settings. Preference persisted across sessions. Auto-applied with Material Components for consistent look.</p>
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FCE4EC;">⚡</div>
+        <div class="icon" style="background:#E1F5FE;">⚡</div>
         <h3>App Shortcuts</h3>
         <p>Quick actions on long-press launcher icon: Browse HomeStays, Add HomeStay, View Inquiries. Android 8+ with shortcut labels and disabled messages.</p>
         <div class="badge-row">
@@ -451,7 +451,7 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">🔔</div>
+        <div class="icon" style="background:#E3F2FD;">🔔</div>
         <h3>Push Notifications</h3>
         <p>FCM-based notifications for new inquiries and bookings. Cloud Functions trigger push when data changes. Notification channels for Android 8+. Permission request on Android 13+.</p>
         <div class="badge-row">
@@ -472,9 +472,9 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#FFF3E0;">🎨</div>
+        <div class="icon" style="background:#E0F7FA;">🎨</div>
         <h3>Material Design 3</h3>
-        <p>Modern UI with Material 3 components, brand colors (green #2E7D32, brown #6D4C41, cream #FFF8E1). Shimmer loading skeletons, smooth transitions, chip filters.</p>
+        <p>Modern UI with Material 3 components, brand colors (blue #1565C0, teal #00695C, alice #F0F8FF). Shimmer loading skeletons, smooth transitions, chip filters.</p>
         <div class="badge-row">
           <span class="badge badge-brown">Material 3</span>
           <span class="badge badge-brown">Shimmer</span>
@@ -483,13 +483,13 @@
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#F3E5F5;">📋</div>
+        <div class="icon" style="background:#E8EAF6;">📋</div>
         <h3>Settings & Profile</h3>
         <p>Edit name and phone. Dark mode toggle. App version display. Logout with session clear and full back-stack cleanup via popUpTo(0).</p>
       </div>
 
       <div class="feature-card">
-        <div class="icon" style="background:#E8F5E9;">📦</div>
+        <div class="icon" style="background:#E3F2FD;">📦</div>
         <h3>Offline Support</h3>
         <p>Firestore persistence enabled with CACHE_SIZE_UNLIMITED. Data cached locally for offline viewing. Network state observer with online/offline snackbar.</p>
       </div>
